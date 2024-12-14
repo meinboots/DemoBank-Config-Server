@@ -1,0 +1,36 @@
+#server:
+#  port: 9000
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#  config:                     # Importing profile files
+#    import:
+#      - "cards-qa.yml"
+#      - "cards-prod.yml"
+#  profiles:                   # Activating the required profile
+#    active:
+#      - "qa"
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to DemoBank cards related local APIs(Classpath External Config)"
+  contactDetails:
+    name: "Yogesh Yadav - Developer"
+    email: "yogesh@eazybank.com"
+  onCallSupport:
+    - +91- 7792939848
+    - +91- 9123456789

@@ -1,0 +1,16 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to DemoBank accounts related Production APIs(Classpath External Config)"
+  contactDetails:
+    name: "Utkarsh Shrivastava - Product Owner"
+    email: "utkarsh@eazybank.com"
+  onCallSupport:
+    - +91- 0000000014
+    - +91- 0000000015

@@ -1,0 +1,16 @@
+#spring:
+#  config:
+#    activate:
+#      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to DemoBank accounts related QA APIs(Classpath External Config)"
+  contactDetails:
+    name: "Sayali Dhakate - QA Lead"
+    email: "sayali@eazybank.com"
+  onCallSupport:
+    - +91- 0000000012
+    - +91- 0000000013

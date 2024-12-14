@@ -1,0 +1,36 @@
+#server:
+#  port: 8090
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#  h2:
+#    console:
+#      enabled: true
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#  config:                     # Importing profile files
+#    import:
+#      - "loans-qa.yml"
+#      - "loans-prod.yml"
+#  profiles:                   # Activating the required profile
+#    active:
+#      - "prod"
+
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to DemoBank loans related local APIs(Classpath External Config)"
+  contactDetails:
+    name: "Yogesh Yadav - Developer"
+    email: "yogesh@eazybank.com"
+  onCallSupport:
+    - +91- 7792939848
+    - +91- 9123456789

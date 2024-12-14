@@ -1,0 +1,35 @@
+#spring:
+#  application:
+#    name: accounts
+#  datasource:
+#    url: jdbc:h2:mem:testdb   # For in-memory database
+#    username: sa              # Default username for H2
+#    password:                 # Default password is blank
+#    driver-class-name: org.h2.Driver
+#  h2:
+#    console:
+#      enabled: true           # Enable H2 web console
+#      path: /h2-console       # Access console at http://localhost:8080/h2-console
+#  jpa:
+#    hibernate:
+#      ddl-auto: update        # Update schema automatically (create, update, validate, none)
+#    show-sql: true
+#  config:                     # Importing profile files
+#    import:
+#      - "accounts-qa.yml"
+#      - "accounts-prod.yml"
+#  profiles:                   # Activating the required profile
+#    active:
+#      - "prod"
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to DemoBank accounts related local APIs(Classpath External Config)"
+  contactDetails:
+    name: "Yogesh Yadav - Developer"
+    email: "yogesh@eazybank.com"
+  onCallSupport:
+    - +91- 7792939848
+    - +91- 9123456789
