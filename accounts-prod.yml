@@ -10,7 +10,7 @@ accounts:
   message: "Welcome to DemoBank accounts related Production APIs(Classpath External Config)"
   contactDetails:
     name: "Utkarsh Shrivastava - Product Owner"
-    email: "{cipher}cbaacc4e4581e0fa398459e88812729a9dcc970ab601d1007b1074b4744122ab321fb8b8abb8df5427ddbd5695fbf868" # cipher - let config server know this it the encrypted value.
+    email: "{cipher}076b553dd2f3268027d5fce5e1aa0163203f5d381cccd8dbfc0975d084405db91cd717c9b9b0347e7596b28c5c404d3b" # cipher - let config server know this it the encrypted value.
   onCallSupport:
     - +91- 0000000014
     - +91- 0000000015
