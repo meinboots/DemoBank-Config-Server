@@ -7,7 +7,7 @@ build:
   version: "2.0"
 
 loans:
-  message: "Welcome to DemoBank loans related Quality Assurance APIs(GIT)"
+  message: "Welcome to DemoBank loans related Quality Assurance APIs(GIT)-Now using busRefresh"
   contactDetails:
     name: "Sayali Dhakate - QA Lead"
     email: "sayali@eazybank.com"
