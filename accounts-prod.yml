@@ -7,7 +7,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to DemoBank accounts related Production APIs(GIT)"
+  message: "Welcome to DemoBank accounts related Production APIs(GIT)-Now using busRefresh"
   contactDetails:
     name: "Utkarsh Shrivastava - Product Owner"
     email: "{cipher}076b553dd2f3268027d5fce5e1aa0163203f5d381cccd8dbfc0975d084405db91cd717c9b9b0347e7596b28c5c404d3b" # cipher - let config server know this it the encrypted value.
