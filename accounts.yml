@@ -26,7 +26,7 @@ build:
   version: "3.0"
 
 accounts:
-  message: "Welcome to DemoBank accounts related local APIs(Classpath External Config)"
+  message: "Welcome to DemoBank accounts related local APIs(Classpath External Config)-webhook-section-6-tutorial"
   contactDetails:
     name: "Yogesh Yadav - Developer"
     email: "yogesh@eazybank.com"
